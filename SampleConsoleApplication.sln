@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleConsoleApplication", "SampleConsoleApplication\SampleConsoleApplication.csproj", "{6C8556F9-A6C5-492F-A0CF-76D23B7AB93A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{293BBA79-F6D7-4199-9AB9-72328FEEAEA1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Library", "Library", "{54C3C293-528B-480F-9585-2BA0B3FDDAE8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TiaInterface", "TiaInterface\TiaInterface.csproj", "{36A0B194-171D-45FC-94B3-411D0DCB3447}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Avalonia.NETCoreMVVMApp1", "Avalonia.NETCoreMVVMApp1\Avalonia.NETCoreMVVMApp1.csproj", "{AF1A2567-0FDF-4B69-853F-2450642F6A03}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6C8556F9-A6C5-492F-A0CF-76D23B7AB93A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C8556F9-A6C5-492F-A0CF-76D23B7AB93A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C8556F9-A6C5-492F-A0CF-76D23B7AB93A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C8556F9-A6C5-492F-A0CF-76D23B7AB93A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36A0B194-171D-45FC-94B3-411D0DCB3447}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36A0B194-171D-45FC-94B3-411D0DCB3447}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36A0B194-171D-45FC-94B3-411D0DCB3447}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36A0B194-171D-45FC-94B3-411D0DCB3447}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF1A2567-0FDF-4B69-853F-2450642F6A03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF1A2567-0FDF-4B69-853F-2450642F6A03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF1A2567-0FDF-4B69-853F-2450642F6A03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF1A2567-0FDF-4B69-853F-2450642F6A03}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6C8556F9-A6C5-492F-A0CF-76D23B7AB93A} = {293BBA79-F6D7-4199-9AB9-72328FEEAEA1}
+		{36A0B194-171D-45FC-94B3-411D0DCB3447} = {54C3C293-528B-480F-9585-2BA0B3FDDAE8}
+		{AF1A2567-0FDF-4B69-853F-2450642F6A03} = {293BBA79-F6D7-4199-9AB9-72328FEEAEA1}
+	EndGlobalSection
+EndGlobal
